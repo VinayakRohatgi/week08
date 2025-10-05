@@ -18,7 +18,7 @@ spec:
     spec:
       containers:
       - name: frontend-container
-        image: vinnyreg.azurecr.io/frontend:latest
+        image: vinw9acr.azurecr.io/frontend:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
